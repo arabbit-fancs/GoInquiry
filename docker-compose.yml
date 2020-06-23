@@ -6,7 +6,7 @@ services:
     image: nginx:alpine
     container_name: nginx
     volumes:
-      - ./web/dist:/var/www/html
+      - ./web:/var/www/html
       - ./nginx/server.conf:/etc/nginx/nginx.conf
     ports:
       - "8888:80"

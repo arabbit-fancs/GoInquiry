@@ -42,7 +42,7 @@
                 });
             },
             async postInquiry() {
-                const resp = await fetch('http://localhost:8000/inquiry/send', {
+                const resp = await fetch('/api/inquiry/send', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
