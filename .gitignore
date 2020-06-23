@@ -1,4 +1,5 @@
 
 .idea
-mongo/*
 *.iml
+mongo/*
+!mongo/readme.txt
